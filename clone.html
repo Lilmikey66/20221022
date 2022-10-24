@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    cmd:
+    cd desktop 進入桌面
+    <!-- C:\Users\user\Desktop> -->
+    取得儲存庫
+    git clone '儲存庫位置'
+
+    下載更新
+    cd test 進入資料夾
+    <!-- C:\Users\user\Desktop\test> -->
+    git pull
+
+    cd .. 回上一層
+    cd dir/w 查看檔案
+
+    git reset 版本號  (尚未add)
+    *git reset-hard 版本號  (自動刪除內容)
+    git reset-soft 自動commit   
+
+    git reflog 查紀錄
+
+    git branch 查詢分支
+    git branch dev 建立分支
+    git checkout dev 轉換分支
+    轉換完分支push 至dev
+    git merge dev 合併分支 (需處於原檔案將新檔案合併過來)
+    git branch 分支名稱 -d 刪除分支
+
+    git tag 標籤名稱  建立標籤
+    git push origin master --tags
+
+    https://app.netlify.com/teams/mou8751/overview
+    將github and netlify connect together
+
+    
+</body>
+</html>
